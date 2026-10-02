@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamaños y color de texto</title>
+</head>
+<body>
+<!-- se utiliza un h1 como tipo de texto y align="center" para centrar el titulo principal-->
+     <h1 align="center">
+      <!-- Con <font color="" size=""> se determinan el color y los tamaños de cada palabra -->
+        <font color="#142E82" size="6">Semaforo</font>
+        <font color="#142E82" size="8"><b>Triage</b></font>
+     </h1>
+
+
+<!-- se crea una tabla y se centra con align="center"-->
+     <table border="1" ; align="center">
+      <tr>
+         <!-- Con sytile="background-color # ;" defino el color de la celda y dentro del <font color=""> el color del texto-->
+        <th style="background-color: #72B2ED;"><font color="blue">Tipo de atencion</font></th>
+        <th style="background-color: #72B2ED;"><font color="blue">Area de atencion</font></th>
+        <th style="background-color: #72B2ED;"><font color="blue">Tipo de espera</font></th>
+     </tr>
+     <tr>
+      <!-- En cada celda (<td>) utilizo el <font color=""> para colorear el texto y <center> para centrarlo si es necesario-->
+        <td><h1><font color="red"><center>Reanimacion</center></font></h1></td>
+        <td><font color="red"><center>Area de reanimacion</center></font></td>
+        <td><font color="red">Inmediato hasta 3 min</font></td>
+     </tr>
+     <tr>
+        <td><h1><font color="orange"><center>Emergencia</center></font></h1></td>
+        <td><font color="orange"><center>Area de reanimacion</center></font></td>
+        <td><font color="orange">Inmediato hasta 10 min</font></td>
+     </tr>
+     <tr>
+        <td><h1><font color="#E8C71E"><center>Urgencia</center></font></h1></td>
+        <td><font color="#E8C71E"><center>Consultorio de primer contacto</center></font></td>
+        <td><font color="#E8C71E"><center>Hasta 30 min</center></font></td>
+     </tr>
+     <tr>
+        <td><h1><font color="green">Urgencia menor</font></h1></td>
+        <td><font color="green">Consultorio de primer contacto o UMF</font></td>
+        <td><font color="green"><center>Hasta 120 min</center></font></td>
+     </tr>
+     <tr>
+        <td><h1><font color="blue"><center>Sin urgencia</center></font></h1></td>
+        <td><font color="blue">Consultorio de primer contacto o UMF</font></td>
+        <td><font color="blue"><center>Hasta 180 min</center></font></td>
+     </tr>
+     
+     
+</body>
+
+</html>
